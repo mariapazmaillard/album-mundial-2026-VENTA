@@ -184,10 +184,20 @@ if('serviceWorker' in navigator) {
   <div class="access-box">
     <div class="access-logo"><img src="icono.png" alt="Control de Figuritas 2026" style="width:72px;height:72px;border-radius:16px;"></div>
     <div class="access-title">Control de Figuritas 2026</div>
-    <div class="access-sub">Ingresa tu código de acceso para continuar</div>
-    <input class="access-input" id="accessInput" type="text" placeholder="XXXX-XXXX" maxlength="9" autocomplete="off">
-    <button class="access-btn" onclick="checkAccess()">Ingresar</button>
-    <div class="access-err" id="accessErr"></div>
+    <div class="access-sub">El álbum del Mundial 2026 en tu celular.<br>980 figuritas · 48 países · Sin publicidad</div>
+
+    <div style="width:100%;background:#1e293b;border-radius:12px;padding:16px;margin-bottom:12px;text-align:left;">
+      <div style="font-size:13px;font-weight:600;color:#f97316;margin-bottom:10px;">✅ ¿Ya tienes tu código? Ingresa aquí:</div>
+      <input class="access-input" id="accessInput" type="text" placeholder="XXXX-XXXX" maxlength="9" autocomplete="off" style="margin-bottom:8px;">
+      <button class="access-btn" onclick="checkAccess()">Ingresar</button>
+      <div class="access-err" id="accessErr"></div>
+    </div>
+
+    <div style="width:100%;background:#1e293b;border-radius:12px;padding:16px;text-align:left;">
+      <div style="font-size:13px;font-weight:600;color:#94a3b8;margin-bottom:8px;">🛒 ¿Aún no tienes tu código?</div>
+      <a href="https://mariapaz0.gumroad.com/l/qmktbg" target="_blank" style="display:block;width:100%;padding:12px;border-radius:10px;background:#22c55e;color:#fff;font-size:15px;font-weight:700;text-align:center;text-decoration:none;box-sizing:border-box;">Comprar acceso →</a>
+      <div style="font-size:11px;color:#64748b;margin-top:8px;text-align:center;">Precio especial por tiempo limitado 🔥</div>
+    </div>
   </div>
 </div>
 <div class="app" id="mainApp" style="display:none">
